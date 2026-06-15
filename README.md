@@ -4,6 +4,8 @@ A Unified Campus Intelligence Dashboard with an embedded AI Assistant that dynam
 
 **🚀 Live Demo: [https://campus-intelligence-z5we-nu.vercel.app](https://campus-intelligence-z5we-nu.vercel.app)**
 
+> ⚠️ **Groq Rate Limit Note:** This app uses the Groq free tier (`llama-3.1-8b-instant`), which is limited to **6K tokens/minute (~2 requests/minute)**. If the AI takes 30–60 seconds to respond or seems unresponsive, it is due to Groq's free-tier rate limiting — **not a backend issue**. Please wait a minute between queries if you hit the limit.
+
 ---
 
 ## Problem Statement
@@ -154,44 +156,6 @@ npm run dev
 # Open http://localhost:3000
 ```
 
-## Deployment
-
-### Single-Click Deploy to Vercel (Free)
-
-**No backend servers needed!** All data is built into the Next.js app.
-
-#### Option 1: Vercel Dashboard (Recommended)
-
-1. Go to **[vercel.com/new](https://vercel.com/new)**
-2. Import your GitHub repo: `Bairagidarinda/campus-intelligence`
-3. Add **Environment Variable**:
-   - `GROQ_API_KEY` = `your_groq_api_key_here` (get free key at [console.groq.com](https://console.groq.com))
-   - `GROQ_MODEL` = `llama-3.1-8b-instant`
-4. Click **Deploy** (takes 1-2 minutes)
-5. Copy your URL: `https://campus-intelligence-xxx.vercel.app`
-
-#### Option 2: Vercel CLI
-
-```bash
-# Install Vercel CLI
-npm install -g vercel
-
-# Login
-vercel login
-
-# Deploy (you'll be prompted to add environment variables)
-vercel --prod
-```
-
-#### Update README with Live URL
-
-After deployment:
-```bash
-# Edit README.md line 5 with your actual URL
-git add README.md
-git commit -m "docs: update live demo URL"
-git push
-```
 
 **Note:** The app includes all campus data (library, cafeteria, events, academics) built-in. No external servers or databases required!
 
@@ -256,6 +220,4 @@ The AI orchestrator registers 12 tools with the Groq LLM:
 
 MIT License — feel free to use and adapt for your campus.
 
-## Built By
 
-Team CampusX — Unified Campus Intelligence Project 2026
