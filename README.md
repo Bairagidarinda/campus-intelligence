@@ -165,7 +165,7 @@ npm run dev
 1. Go to **[vercel.com/new](https://vercel.com/new)**
 2. Import your GitHub repo: `Bairagidarinda/campus-intelligence`
 3. Add **Environment Variable**:
-   - `GROQ_API_KEY` = `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`
+   - `GROQ_API_KEY` = `your_groq_api_key_here` (get free key at [console.groq.com](https://console.groq.com))
    - `GROQ_MODEL` = `llama-3.1-8b-instant`
 4. Click **Deploy** (takes 1-2 minutes)
 5. Copy your URL: `https://campus-intelligence-xxx.vercel.app`
@@ -179,8 +179,8 @@ npm install -g vercel
 # Login
 vercel login
 
-# Deploy with environment variables
-vercel --prod --build-env GROQ_API_KEY=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 --build-env GROQ_MODEL=llama-3.1-8b-instant
+# Deploy (you'll be prompted to add environment variables)
+vercel --prod
 ```
 
 #### Update README with Live URL
