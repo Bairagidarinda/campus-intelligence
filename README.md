@@ -2,6 +2,8 @@
 
 A Unified Campus Intelligence Dashboard with an embedded AI Assistant that dynamically routes student queries to independent data source servers. Data is fetched live from each source — no central database, no brittle scrapers.
 
+**🚀 Live Demo: [https://campus-intelligence.vercel.app](https://campus-intelligence.vercel.app)**
+
 ---
 
 ## Problem Statement
@@ -72,7 +74,7 @@ Build a Unified Web Dashboard featuring an embedded AI Assistant. Instead of bui
 |-------|-----------|
 | Frontend | Next.js 15, TypeScript, Tailwind CSS, shadcn/ui |
 | Frontend AI SDK | `ai`, `@ai-sdk/react`, `@ai-sdk/openai` |
-| LLM | Groq API — `llama-3.3-70b-versatile` |
+| LLM | Groq API — `llama-3.1-8b-instant` (free tier, 6K tokens/min) |
 | AI Orchestrator | Next.js API Route (`/api/chat`) with `streamText()` + `tool()` |
 | Tool Schemas | Zod |
 | Data Servers | Python, FastAPI, Pydantic |
