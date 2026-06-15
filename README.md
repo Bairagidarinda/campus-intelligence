@@ -2,7 +2,7 @@
 
 A Unified Campus Intelligence Dashboard with an embedded AI Assistant that dynamically routes student queries to independent data source servers. Data is fetched live from each source — no central database, no brittle scrapers.
 
-**🚀 Live Demo: [https://campus-intelligence.vercel.app](https://campus-intelligence.vercel.app)**
+**🚀 Live Demo: [https://campus-intelligence.vercel.app](https://campus-intelligence.vercel.app)** *(Deploy your own below)*
 
 ---
 
@@ -156,57 +156,44 @@ npm run dev
 
 ## Deployment
 
-### Quick Deploy (Render + Vercel)
+### Single-Click Deploy to Vercel (Free)
 
-We use **Render** for the 4 Python backend servers (free tier) and **Vercel** for the Next.js frontend (free tier).
+**No backend servers needed!** All data is built into the Next.js app.
 
-#### Step 1: Deploy Backend Servers to Render
+#### Option 1: Vercel Dashboard (Recommended)
 
-1. Go to [dashboard.render.com/blueprints](https://dashboard.render.com/blueprints)
-2. Click **New Blueprint Instance**
-3. Connect your GitHub repo (`your-username/campus-intelligence`)
-4. Render will read `render.yaml` and create 4 web services automatically:
-   - `campus-library-mcp` (books data)
-   - `campus-cafeteria-mcp` (menu data)
-   - `campus-events-mcp` (events data)
-   - `campus-academics-mcp` (handbook, courses, professors)
-5. Wait for all 4 services to show **"Live"** (takes 2-3 minutes)
-6. Copy the URLs (e.g., `https://campus-library-mcp.onrender.com`)
+1. Go to **[vercel.com/new](https://vercel.com/new)**
+2. Import your GitHub repo: `Bairagidarinda/campus-intelligence`
+3. Add **Environment Variable**:
+   - `GROQ_API_KEY` = `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`
+   - `GROQ_MODEL` = `llama-3.1-8b-instant`
+4. Click **Deploy** (takes 1-2 minutes)
+5. Copy your URL: `https://campus-intelligence-xxx.vercel.app`
 
-#### Step 2: Deploy Frontend to Vercel
+#### Option 2: Vercel CLI
 
 ```bash
 # Install Vercel CLI
 npm install -g vercel
 
-# Login (opens browser)
+# Login
 vercel login
 
-# Deploy
-vercel --prod
+# Deploy with environment variables
+vercel --prod --build-env GROQ_API_KEY=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 --build-env GROQ_MODEL=llama-3.1-8b-instant
 ```
 
-Or use the Vercel Dashboard:
-1. Go to [vercel.com/new](https://vercel.com/new)
-2. Import your GitHub repo
-3. Add **Environment Variables**:
-   - `GROQ_API_KEY` = your Groq API key
-   - `GROQ_MODEL` = `llama-3.1-8b-instant`
-   - `MCP_LIBRARY_URL` = `https://campus-library-mcp.onrender.com`
-   - `MCP_CAFETERIA_URL` = `https://campus-cafeteria-mcp.onrender.com`
-   - `MCP_EVENTS_URL` = `https://campus-events-mcp.onrender.com`
-   - `MCP_ACADEMICS_URL` = `https://campus-academics-mcp.onrender.com`
-4. Click **Deploy**
+#### Update README with Live URL
 
-#### Step 3: Update README with Live URL
-
-After deployment, Vercel gives you a URL. Update the README:
+After deployment:
 ```bash
-# Edit line 7 of README.md with your actual URL
+# Edit README.md line 5 with your actual URL
 git add README.md
 git commit -m "docs: update live demo URL"
 git push
 ```
+
+**Note:** The app includes all campus data (library, cafeteria, events, academics) built-in. No external servers or databases required!
 
 ## Demo Video
 
