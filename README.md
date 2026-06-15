@@ -2,7 +2,7 @@
 
 A Unified Campus Intelligence Dashboard with an embedded AI Assistant that dynamically routes student queries to independent data source servers. Data is fetched live from each source — no central database, no brittle scrapers.
 
-**🚀 Live Demo: [https://campus-intelligence.vercel.app](https://campus-intelligence.vercel.app)** *(Deploy your own below)*
+**🚀 Live Demo: [https://campus-intelligence-z5we-nu.vercel.app](https://campus-intelligence-z5we-nu.vercel.app)**
 
 ---
 
@@ -194,19 +194,6 @@ git push
 ```
 
 **Note:** The app includes all campus data (library, cafeteria, events, academics) built-in. No external servers or databases required!
-
-## Demo Video
-
-[Watch the 5-10 minute demo](https://your-demo-link-here)
-
-The video demonstrates:
-1. Dashboard overview with live system status
-2. Library query: "Is Introduction to AI available?" → BookCard with availability and shelf location
-3. Cafeteria query: "What's for lunch at Main cafeteria?" → MenuCard with dietary tags
-4. Events query: "Any tech events this weekend?" → EventCard with hackathon details
-5. Academics query: "What's the late assignment policy?" → Handbook result card
-6. Multi-tool query: "What's happening today and what should I eat?" → Events + Cafeteria unified view
-7. Real-time streaming and tool call visualization
 
 ## API Reference
 
