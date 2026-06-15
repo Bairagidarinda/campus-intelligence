@@ -1,0 +1,332 @@
+{
+  "cafeterias": ["Main Cafeteria", "South Campus"],
+  "weekly_menus": {
+    "Main Cafeteria": {
+      "Monday": {
+        "breakfast": {
+          "items": [
+            {"name": "Poha", "type": "veg", "calories": 250, "allergens": [], "is_todays_special": false},
+            {"name": "Masala Dosa", "type": "veg", "calories": 300, "allergens": ["gluten"], "is_todays_special": true},
+            {"name": "Boiled Eggs", "type": "non-veg", "calories": 140, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Paneer Tikka Masala", "type": "veg", "calories": 450, "allergens": ["dairy"], "is_todays_special": true},
+            {"name": "Chicken Biryani", "type": "non-veg", "calories": 650, "allergens": [], "is_todays_special": false},
+            {"name": "Dal Tadka", "type": "veg", "calories": 220, "allergens": [], "is_todays_special": false},
+            {"name": "Steamed Rice", "type": "veg", "calories": 180, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Chole Bhature", "type": "veg", "calories": 550, "allergens": ["gluten"], "is_todays_special": false},
+            {"name": "Grilled Fish", "type": "non-veg", "calories": 320, "allergens": ["fish"], "is_todays_special": true},
+            {"name": "Garden Salad", "type": "vegan", "calories": 80, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      },
+      "Tuesday": {
+        "breakfast": {
+          "items": [
+            {"name": "Idli Sambar", "type": "veg", "calories": 280, "allergens": [], "is_todays_special": false},
+            {"name": "Vada Pav", "type": "veg", "calories": 350, "allergens": ["gluten"], "is_todays_special": false},
+            {"name": "Omelette", "type": "non-veg", "calories": 180, "allergens": ["eggs"], "is_todays_special": true}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Rajma Chawal", "type": "veg", "calories": 480, "allergens": [], "is_todays_special": true},
+            {"name": "Butter Chicken", "type": "non-veg", "calories": 580, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Roti", "type": "veg", "calories": 120, "allergens": ["gluten"], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Pav Bhaji", "type": "veg", "calories": 420, "allergens": ["gluten"], "is_todays_special": false},
+            {"name": "Egg Curry", "type": "non-veg", "calories": 380, "allergens": ["eggs"], "is_todays_special": false},
+            {"name": "Fruit Bowl", "type": "vegan", "calories": 150, "allergens": [], "is_todays_special": true}
+          ]
+        }
+      },
+      "Wednesday": {
+        "breakfast": {
+          "items": [
+            {"name": "Aloo Paratha", "type": "veg", "calories": 380, "allergens": ["gluten"], "is_todays_special": true},
+            {"name": "Upma", "type": "veg", "calories": 220, "allergens": [], "is_todays_special": false},
+            {"name": "Scrambled Eggs", "type": "non-veg", "calories": 160, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Palak Paneer", "type": "veg", "calories": 420, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Mutton Rogan Josh", "type": "non-veg", "calories": 620, "allergens": [], "is_todays_special": true},
+            {"name": "Jeera Rice", "type": "veg", "calories": 200, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Matar Paneer", "type": "veg", "calories": 400, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Chicken Tikka", "type": "non-veg", "calories": 350, "allergens": [], "is_todays_special": true},
+            {"name": "Mixed Veg Salad", "type": "vegan", "calories": 90, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      },
+      "Thursday": {
+        "breakfast": {
+          "items": [
+            {"name": "Poori Bhaji", "type": "veg", "calories": 420, "allergens": ["gluten"], "is_todays_special": false},
+            {"name": "Semiya Upma", "type": "veg", "calories": 200, "allergens": [], "is_todays_special": true},
+            {"name": "Sausage & Eggs", "type": "non-veg", "calories": 380, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Kadhi Pakora", "type": "veg", "calories": 380, "allergens": ["dairy", "gluten"], "is_todays_special": true},
+            {"name": "Fish Curry", "type": "non-veg", "calories": 450, "allergens": ["fish"], "is_todays_special": false},
+            {"name": "Basmati Rice", "type": "veg", "calories": 210, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Mushroom Masala", "type": "veg", "calories": 320, "allergens": [], "is_todays_special": false},
+            {"name": "Prawn Biryani", "type": "non-veg", "calories": 580, "allergens": ["shellfish"], "is_todays_special": true},
+            {"name": "Cucumber Raita", "type": "veg", "calories": 100, "allergens": ["dairy"], "is_todays_special": false}
+          ]
+        }
+      },
+      "Friday": {
+        "breakfast": {
+          "items": [
+            {"name": "Bread Pakora", "type": "veg", "calories": 350, "allergens": ["gluten"], "is_todays_special": false},
+            {"name": "Sabudana Khichdi", "type": "veg", "calories": 280, "allergens": [], "is_todays_special": true},
+            {"name": "Chicken Sausage", "type": "non-veg", "calories": 320, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Shahi Paneer", "type": "veg", "calories": 480, "allergens": ["dairy"], "is_todays_special": true},
+            {"name": "Tandoori Chicken", "type": "non-veg", "calories": 420, "allergens": [], "is_todays_special": false},
+            {"name": "Lachha Paratha", "type": "veg", "calories": 180, "allergens": ["gluten"], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Dal Makhani", "type": "veg", "calories": 380, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Mutton Keema", "type": "non-veg", "calories": 520, "allergens": [], "is_todays_special": true},
+            {"name": "Green Salad", "type": "vegan", "calories": 70, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      },
+      "Saturday": {
+        "breakfast": {
+          "items": [
+            {"name": "Chole Kulche", "type": "veg", "calories": 450, "allergens": ["gluten"], "is_todays_special": true},
+            {"name": "Pesarattu", "type": "veg", "calories": 240, "allergens": [], "is_todays_special": false},
+            {"name": "Bacon & Eggs", "type": "non-veg", "calories": 400, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Veg Biryani", "type": "veg", "calories": 520, "allergens": [], "is_todays_special": true},
+            {"name": "Chicken Korma", "type": "non-veg", "calories": 550, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Raita", "type": "veg", "calories": 90, "allergens": ["dairy"], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Malai Kofta", "type": "veg", "calories": 450, "allergens": ["dairy", "gluten"], "is_todays_special": false},
+            {"name": "Grilled Chicken Breast", "type": "non-veg", "calories": 310, "allergens": [], "is_todays_special": true},
+            {"name": "Caesar Salad", "type": "veg", "calories": 150, "allergens": ["dairy"], "is_todays_special": false}
+          ]
+        }
+      },
+      "Sunday": {
+        "breakfast": {
+          "items": [
+            {"name": "Pancakes with Syrup", "type": "veg", "calories": 380, "allergens": ["gluten", "dairy"], "is_todays_special": true},
+            {"name": "Aloo Tikki", "type": "veg", "calories": 260, "allergens": [], "is_todays_special": false},
+            {"name": "Fried Eggs", "type": "non-veg", "calories": 170, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Paneer Butter Masala", "type": "veg", "calories": 500, "allergens": ["dairy"], "is_todays_special": true},
+            {"name": "Lamb Curry", "type": "non-veg", "calories": 600, "allergens": [], "is_todays_special": false},
+            {"name": "Naan", "type": "veg", "calories": 160, "allergens": ["gluten", "dairy"], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Veg Hakka Noodles", "type": "veg", "calories": 350, "allergens": ["gluten", "soy"], "is_todays_special": false},
+            {"name": "Chilli Chicken", "type": "non-veg", "calories": 420, "allergens": ["soy"], "is_todays_special": true},
+            {"name": "Spring Rolls", "type": "veg", "calories": 200, "allergens": ["gluten"], "is_todays_special": false}
+          ]
+        }
+      }
+    },
+    "South Campus": {
+      "Monday": {
+        "breakfast": {
+          "items": [
+            {"name": "Cornflakes & Milk", "type": "veg", "calories": 200, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Medu Vada", "type": "veg", "calories": 280, "allergens": [], "is_todays_special": true},
+            {"name": "Boiled Egg", "type": "non-veg", "calories": 140, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Sambar Rice", "type": "veg", "calories": 350, "allergens": [], "is_todays_special": false},
+            {"name": "Chicken Chettinad", "type": "non-veg", "calories": 520, "allergens": [], "is_todays_special": true},
+            {"name": "Rasam", "type": "veg", "calories": 80, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Curd Rice", "type": "veg", "calories": 280, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Meen Kuzhambu", "type": "non-veg", "calories": 350, "allergens": ["fish"], "is_todays_special": true},
+            {"name": "Papad", "type": "veg", "calories": 60, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      },
+      "Tuesday": {
+        "breakfast": {
+          "items": [
+            {"name": "Bread & Jam", "type": "veg", "calories": 220, "allergens": ["gluten"], "is_todays_special": false},
+            {"name": "Pesarattu", "type": "veg", "calories": 240, "allergens": [], "is_todays_special": true},
+            {"name": "Omelette", "type": "non-veg", "calories": 180, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Avial & Rice", "type": "veg", "calories": 320, "allergens": ["dairy"], "is_todays_special": true},
+            {"name": "Kerala Fish Fry", "type": "non-veg", "calories": 380, "allergens": ["fish"], "is_todays_special": false},
+            {"name": "Mor Kuzhambu", "type": "veg", "calories": 100, "allergens": ["dairy"], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Tomato Rice", "type": "veg", "calories": 260, "allergens": [], "is_todays_special": false},
+            {"name": "Prawn Masala", "type": "non-veg", "calories": 400, "allergens": ["shellfish"], "is_todays_special": true},
+            {"name": "Coconut Chutney", "type": "veg", "calories": 120, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      },
+      "Wednesday": {
+        "breakfast": {
+          "items": [
+            {"name": "Puttu & Kadala", "type": "veg", "calories": 350, "allergens": [], "is_todays_special": true},
+            {"name": "Rava Upma", "type": "veg", "calories": 210, "allergens": [], "is_todays_special": false},
+            {"name": "Scrambled Eggs", "type": "non-veg", "calories": 160, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Sambar & Rice", "type": "veg", "calories": 340, "allergens": [], "is_todays_special": false},
+            {"name": "Mutton Pepper Fry", "type": "non-veg", "calories": 550, "allergens": [], "is_todays_special": true},
+            {"name": "Kootu", "type": "veg", "calories": 150, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Lemon Rice", "type": "veg", "calories": 240, "allergens": [], "is_todays_special": false},
+            {"name": "Chicken 65", "type": "non-veg", "calories": 420, "allergens": [], "is_todays_special": true},
+            {"name": "Pachadi", "type": "veg", "calories": 90, "allergens": ["dairy"], "is_todays_special": false}
+          ]
+        }
+      },
+      "Thursday": {
+        "breakfast": {
+          "items": [
+            {"name": "Appam & Stew", "type": "veg", "calories": 380, "allergens": ["dairy"], "is_todays_special": true},
+            {"name": "Idiyappam", "type": "veg", "calories": 220, "allergens": [], "is_todays_special": false},
+            {"name": "Sausage & Eggs", "type": "non-veg", "calories": 380, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Thoran & Rice", "type": "veg", "calories": 300, "allergens": [], "is_todays_special": true},
+            {"name": "Fish Molee", "type": "non-veg", "calories": 420, "allergens": ["fish", "dairy"], "is_todays_special": false},
+            {"name": "Inji Puli", "type": "veg", "calories": 110, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Tamarind Rice", "type": "veg", "calories": 250, "allergens": [], "is_todays_special": false},
+            {"name": "Squid Roast", "type": "non-veg", "calories": 380, "allergens": ["shellfish"], "is_todays_special": true},
+            {"name": "Beetroot Pachadi", "type": "veg", "calories": 80, "allergens": ["dairy"], "is_todays_special": false}
+          ]
+        }
+      },
+      "Friday": {
+        "breakfast": {
+          "items": [
+            {"name": "Uttapam", "type": "veg", "calories": 290, "allergens": [], "is_todays_special": true},
+            {"name": "Pongal", "type": "veg", "calories": 260, "allergens": [], "is_todays_special": false},
+            {"name": "Chicken Sausage", "type": "non-veg", "calories": 320, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Kadala Curry & Puttu", "type": "veg", "calories": 380, "allergens": [], "is_todays_special": true},
+            {"name": "Chicken Stew", "type": "non-veg", "calories": 480, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Manga Curry", "type": "veg", "calories": 70, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Coconut Rice", "type": "veg", "calories": 270, "allergens": [], "is_todays_special": false},
+            {"name": "Kerala Prawn Curry", "type": "non-veg", "calories": 450, "allergens": ["shellfish", "dairy"], "is_todays_special": true},
+            {"name": "Pappadam", "type": "veg", "calories": 50, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      },
+      "Saturday": {
+        "breakfast": {
+          "items": [
+            {"name": "Masala Dosa", "type": "veg", "calories": 300, "allergens": ["gluten"], "is_todays_special": true},
+            {"name": "Rava Kesari", "type": "veg", "calories": 240, "allergens": ["dairy"], "is_todays_special": false},
+            {"name": "Bacon & Eggs", "type": "non-veg", "calories": 400, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Veg Meals", "type": "veg", "calories": 450, "allergens": [], "is_todays_special": true},
+            {"name": "Chicken Biryani", "type": "non-veg", "calories": 650, "allergens": [], "is_todays_special": false},
+            {"name": "Payasam", "type": "veg", "calories": 180, "allergens": ["dairy"], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Parotta & Kurma", "type": "veg", "calories": 420, "allergens": ["gluten", "dairy"], "is_todays_special": false},
+            {"name": "Egg Roast", "type": "non-veg", "calories": 350, "allergens": ["eggs"], "is_todays_special": true},
+            {"name": "Pickle", "type": "veg", "calories": 40, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      },
+      "Sunday": {
+        "breakfast": {
+          "items": [
+            {"name": "Poori Masala", "type": "veg", "calories": 380, "allergens": ["gluten"], "is_todays_special": true},
+            {"name": "Kuzhi Paniyaram", "type": "veg", "calories": 220, "allergens": [], "is_todays_special": false},
+            {"name": "Fried Eggs", "type": "non-veg", "calories": 170, "allergens": ["eggs"], "is_todays_special": false}
+          ]
+        },
+        "lunch": {
+          "items": [
+            {"name": "Sadhya", "type": "veg", "calories": 500, "allergens": ["dairy"], "is_todays_special": true},
+            {"name": "Fish Fry", "type": "non-veg", "calories": 380, "allergens": ["fish"], "is_todays_special": false},
+            {"name": "Banana Chips", "type": "veg", "calories": 150, "allergens": [], "is_todays_special": false}
+          ]
+        },
+        "dinner": {
+          "items": [
+            {"name": "Dosa & Chutney", "type": "veg", "calories": 250, "allergens": [], "is_todays_special": false},
+            {"name": "Chilli Chicken", "type": "non-veg", "calories": 420, "allergens": ["soy"], "is_todays_special": true},
+            {"name": "Fruit Salad", "type": "veg", "calories": 120, "allergens": [], "is_todays_special": false}
+          ]
+        }
+      }
+    }
+  }
+}

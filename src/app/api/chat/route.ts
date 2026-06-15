@@ -3,10 +3,8 @@ import { streamText, convertToCoreMessages, tool } from "ai";
 import type { Message } from "ai";
 import { z } from "zod";
 
-const LIBRARY_URL = process.env.MCP_LIBRARY_URL || "http://localhost:8001";
-const CAFETERIA_URL = process.env.MCP_CAFETERIA_URL || "http://localhost:8002";
-const EVENTS_URL = process.env.MCP_EVENTS_URL || "http://localhost:8003";
-const ACADEMICS_URL = process.env.MCP_ACADEMICS_URL || "http://localhost:8004";
+// All data is served from internal API routes - no external servers needed
+const BASE_URL = process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : "http://localhost:3000";
 
 export const maxDuration = 60;
 
@@ -45,7 +43,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ query, genre, available_only }) => {
         try {
-          const res = await fetch(`${LIBRARY_URL}/library/search_books`, {
+          const res = await fetch(`${BASE_URL}/api/library/search`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ query, genre, available_only }),
@@ -65,7 +63,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ book_id }) => {
         try {
-          const res = await fetch(`${LIBRARY_URL}/library/check_availability`, {
+          const res = await fetch(`${BASE_URL}/api/library/availability`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ book_id }),
@@ -85,7 +83,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ book_id }) => {
         try {
-          const res = await fetch(`${LIBRARY_URL}/library/get_book_details`, {
+          const res = await fetch(`${BASE_URL}/api/library/details`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ book_id }),
@@ -106,7 +104,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ cafeteria, meal_type }) => {
         try {
-          const res = await fetch(`${CAFETERIA_URL}/cafeteria/get_today_menu`, {
+          const res = await fetch(`${BASE_URL}/api/cafeteria/today`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ cafeteria, meal_type }),
@@ -126,7 +124,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ cafeteria }) => {
         try {
-          const res = await fetch(`${CAFETERIA_URL}/cafeteria/get_weekly_menu`, {
+          const res = await fetch(`${BASE_URL}/api/cafeteria/weekly`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ cafeteria }),
@@ -146,7 +144,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ item_name }) => {
         try {
-          const res = await fetch(`${CAFETERIA_URL}/cafeteria/get_nutrition_info`, {
+          const res = await fetch(`${BASE_URL}/api/cafeteria/nutrition`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ item_name }),
@@ -167,7 +165,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ days, category }) => {
         try {
-          const res = await fetch(`${EVENTS_URL}/events/get_upcoming_events`, {
+          const res = await fetch(`${BASE_URL}/api/events/upcoming`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ days, category }),
@@ -188,7 +186,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ query, category }) => {
         try {
-          const res = await fetch(`${EVENTS_URL}/events/search_events`, {
+          const res = await fetch(`${BASE_URL}/api/events/search`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ query, category }),
@@ -208,7 +206,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ event_id }) => {
         try {
-          const res = await fetch(`${EVENTS_URL}/events/get_event_details`, {
+          const res = await fetch(`${BASE_URL}/api/events/details`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ event_id }),
@@ -228,7 +226,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ query }) => {
         try {
-          const res = await fetch(`${ACADEMICS_URL}/academics/search_handbook`, {
+          const res = await fetch(`${BASE_URL}/api/academics/handbook`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ query }),
@@ -249,7 +247,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ course_code, course_name }) => {
         try {
-          const res = await fetch(`${ACADEMICS_URL}/academics/get_course_info`, {
+          const res = await fetch(`${BASE_URL}/api/academics/courses`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ course_code, course_name }),
@@ -270,7 +268,7 @@ export async function POST(req: Request) {
       }),
       execute: async ({ professor_name, professor_id }) => {
         try {
-          const res = await fetch(`${ACADEMICS_URL}/academics/get_professor_hours`, {
+          const res = await fetch(`${BASE_URL}/api/academics/professors`, {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ professor_name, professor_id }),

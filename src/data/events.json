@@ -1,0 +1,134 @@
+[
+  {
+    "id": "evt-001",
+    "name": "AI Hackathon 2026",
+    "club": "AI & Robotics Club",
+    "category": "tech fest",
+    "date": "2026-06-20",
+    "time": "09:00 AM",
+    "location": "Main Auditorium",
+    "description": "48-hour hackathon focused on building AI-powered solutions for campus problems. Prizes worth $5000. Teams of 3-4 members.",
+    "registration_link": "https://campus-events.edu/hackathon"
+  },
+  {
+    "id": "evt-002",
+    "name": "Machine Learning Workshop",
+    "club": "Data Science Society",
+    "category": "tech fest",
+    "date": "2026-06-22",
+    "time": "02:00 PM",
+    "location": "CS Lab 3",
+    "description": "Hands-on workshop covering neural networks, CNNs, and RNNs using PyTorch. Beginner-friendly with prerequisite Python knowledge.",
+    "registration_link": "https://campus-events.edu/ml-workshop"
+  },
+  {
+    "id": "evt-003",
+    "name": "Robotics Demo Day",
+    "club": "AI & Robotics Club",
+    "category": "tech fest",
+    "date": "2026-06-25",
+    "time": "11:00 AM",
+    "location": "Engineering Plaza",
+    "description": "Demonstration of student-built robots including autonomous drones, line followers, and robotic arms. Open to all students.",
+    "registration_link": "https://campus-events.edu/robotics-demo"
+  },
+  {
+    "id": "evt-004",
+    "name": "Battle of Bands",
+    "club": "Music Club",
+    "category": "cultural",
+    "date": "2026-06-21",
+    "time": "06:00 PM",
+    "location": "Open Air Theatre",
+    "description": "Inter-college band competition. 8 bands competing for the title of Campus Rockstars. Food stalls and bonfire after the event.",
+    "registration_link": "https://campus-events.edu/battle-of-bands"
+  },
+  {
+    "id": "evt-005",
+    "name": "Dance Competition",
+    "club": "Dance Society",
+    "category": "cultural",
+    "date": "2026-06-24",
+    "time": "05:00 PM",
+    "location": "Cultural Hall",
+    "description": "Solo and group dance competition across classical, contemporary, and hip-hop categories. Celebrity judges from the industry.",
+    "registration_link": "https://campus-events.edu/dance-comp"
+  },
+  {
+    "id": "evt-006",
+    "name": "Drama Night",
+    "club": "Theatre Club",
+    "category": "cultural",
+    "date": "2026-06-26",
+    "time": "07:00 PM",
+    "location": "Main Auditorium",
+    "description": "Annual theatre production featuring 3 one-act plays written and directed by students. Themes on social issues and campus life.",
+    "registration_link": "https://campus-events.edu/drama-night"
+  },
+  {
+    "id": "evt-007",
+    "name": "Inter-College Cricket Match",
+    "club": "Sports Council",
+    "category": "sports",
+    "date": "2026-06-19",
+    "time": "08:00 AM",
+    "location": "Sports Ground",
+    "description": "T20 match between our college and State University. Entry free for students with ID card. Cheer for your team!",
+    "registration_link": "https://campus-events.edu/cricket"
+  },
+  {
+    "id": "evt-008",
+    "name": "Basketball Tournament Finals",
+    "club": "Sports Council",
+    "category": "sports",
+    "date": "2026-06-23",
+    "time": "04:00 PM",
+    "location": "Indoor Basketball Court",
+    "description": "Final match of the inter-department basketball tournament. CS vs Mechanical. Come support your department!",
+    "registration_link": "https://campus-events.edu/basketball-finals"
+  },
+  {
+    "id": "evt-009",
+    "name": "Guest Lecture: Quantum Computing",
+    "club": "Physics Society",
+    "category": "academic",
+    "date": "2026-06-18",
+    "time": "10:00 AM",
+    "location": "Lecture Hall 1",
+    "description": "Distinguished lecture by Dr. Arun Kumar from IIT Bombay on the future of quantum computing and its applications in cryptography.",
+    "registration_link": "https://campus-events.edu/quantum-lecture"
+  },
+  {
+    "id": "evt-010",
+    "name": "Research Paper Writing Workshop",
+    "club": "Research Cell",
+    "category": "academic",
+    "date": "2026-06-27",
+    "time": "11:00 AM",
+    "location": "Library Conference Room",
+    "description": "Learn how to write and publish research papers in top-tier conferences. Tips on LaTeX, literature review, and peer review process.",
+    "registration_link": "https://campus-events.edu/research-workshop"
+  },
+  {
+    "id": "evt-011",
+    "name": "Coding Club Weekly Meet",
+    "club": "Coding Club",
+    "category": "club",
+    "date": "2026-06-20",
+    "time": "05:00 PM",
+    "location": "CS Lab 2",
+    "description": "Weekly competitive programming practice session. Solve problems from Codeforces and LeetCode. Snacks provided!",
+    "registration_link": "https://campus-events.edu/coding-meet"
+  },
+  {
+    "id": "evt-012",
+    "name": "Photography Walk",
+    "club": "Photography Club",
+    "category": "club",
+    "date": "2026-06-21",
+    "time": "06:30 AM",
+    "location": "Campus Lake",
+    "description": "Early morning photography walk around campus. Learn landscape and portrait techniques. Bring your DSLR or smartphone.",
+    "registration_link": "https://campus-events.edu/photo-walk"
+  }
+]

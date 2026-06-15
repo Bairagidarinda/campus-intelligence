@@ -1,0 +1,122 @@
+[
+  {
+    "id": "hb-001",
+    "title": "Late Assignment Policy",
+    "section": "Academic Policies",
+    "content": "Assignments submitted within 24 hours after the deadline will receive a 10% penalty. Assignments submitted between 24-72 hours late will receive a 25% penalty. No assignments will be accepted after 72 hours unless accompanied by a valid medical certificate or prior approval from the course instructor."
+  },
+  {
+    "id": "hb-002",
+    "title": "Attendance Requirement",
+    "section": "Academic Policies",
+    "content": "Students must maintain a minimum of 75% attendance in all theory courses and 80% attendance in all laboratory courses. Falling below this threshold will result in being barred from appearing in the end-semester examination. Attendance is calculated from the first day of classes."
+  },
+  {
+    "id": "hb-003",
+    "title": "Plagiarism Policy",
+    "section": "Academic Integrity",
+    "content": "Any form of plagiarism, including copying code, text, or ideas without proper attribution, is strictly prohibited. First-time offenders will receive a zero on the assignment and a formal warning. Repeat offenses may result in suspension or expulsion from the program. All submissions are checked using Turnitin and Moss."
+  },
+  {
+    "id": "hb-004",
+    "title": "Grade Appeal Process",
+    "section": "Academic Policies",
+    "content": "Students may appeal grades within 7 calendar days of the grade being posted. The appeal must be submitted in writing to the course instructor with a clear explanation of the grounds for appeal. If unresolved, the appeal can be escalated to the Department Head within 3 additional days."
+  },
+  {
+    "id": "hb-005",
+    "title": "Examination Rules",
+    "section": "Examinations",
+    "content": "All examinations are closed-book unless explicitly stated otherwise. Students must carry their college ID card and examination hall ticket. Electronic devices including smartwatches, calculators (unless permitted), and mobile phones are strictly prohibited. Violation will result in immediate disqualification."
+  },
+  {
+    "id": "hb-006",
+    "title": "Course Withdrawal",
+    "section": "Registration",
+    "content": "Students may withdraw from a course until the end of the 6th week of the semester without academic penalty. Withdrawal after this deadline will result in a 'W' grade on the transcript. A course cannot be withdrawn after the 10th week under any circumstances."
+  },
+  {
+    "id": "hb-007",
+    "title": "CGPA Requirements",
+    "section": "Academic Performance",
+    "content": "Students must maintain a minimum cumulative GPA of 6.0 on a 10-point scale to remain in good academic standing. Falling below 6.0 for two consecutive semesters will result in academic probation. Falling below 5.0 will result in academic dismissal."
+  },
+  {
+    "id": "hb-008",
+    "title": "Lab Safety Rules",
+    "section": "Laboratory Policies",
+    "content": "All students must wear lab coats and safety goggles in chemistry, physics, and biology labs. Open-toed footwear is prohibited. Long hair must be tied back. Emergency exits must remain unobstructed at all times. Violation of safety rules will result in immediate removal from the lab."
+  },
+  {
+    "id": "hb-009",
+    "title": "Internship Guidelines",
+    "section": "Career Development",
+    "content": "Summer internships are mandatory for all students after the 6th semester. Internships must be at least 8 weeks long and in a relevant field. Students must submit a monthly progress report and a final presentation. The internship carries 2 academic credits."
+  },
+  {
+    "id": "hb-010",
+    "title": "Hostel Rules",
+    "section": "Campus Life",
+    "content": "Hostel gates close at 10:00 PM on weekdays and 11:00 PM on weekends. Visitors are allowed only in common areas until 8:00 PM. Ragging in any form is a criminal offense and will result in immediate expulsion. Room changes require warden approval."
+  },
+  {
+    "id": "hb-011",
+    "title": "Library Membership Rules",
+    "section": "Library Services",
+    "content": "All enrolled students are automatically library members. Each student can borrow up to 4 books for 14 days. Reference books and journals cannot be borrowed. Overdue books incur a fine of $1 per day. Lost books must be replaced or paid for at 3x the book value."
+  },
+  {
+    "id": "hb-012",
+    "title": "Elective Course Selection",
+    "section": "Registration",
+    "content": "Students must select electives during the pre-registration period. Seats are allotted on a first-come-first-served basis for open electives. Department electives may require CGPA-based priority. Once registered, electives can only be changed during the add-drop period."
+  },
+  {
+    "id": "hb-013",
+    "title": "Research Ethics",
+    "section": "Research",
+    "content": "All research involving human subjects must be approved by the Institutional Ethics Committee. Informed consent is mandatory. Data must be anonymized and stored securely. Fabrication or falsification of research data will result in revocation of the degree and legal action."
+  },
+  {
+    "id": "hb-014",
+    "title": "Scholarship Maintenance",
+    "section": "Financial Aid",
+    "content": "Merit scholarships require a minimum CGPA of 8.0 to be maintained. Need-based scholarships require proof of family income annually. Students receiving disciplinary action will lose scholarship eligibility. Scholarship recipients must participate in 20 hours of community service per semester."
+  },
+  {
+    "id": "hb-015",
+    "title": "Code of Conduct",
+    "section": "Student Discipline",
+    "content": "Students are expected to maintain dignity and decorum on campus. Use of abusive language, physical violence, or harassment of any kind will not be tolerated. Smoking and alcohol consumption are prohibited on campus premises. Violation may result in suspension or rustication."
+  },
+  {
+    "id": "hb-016",
+    "title": "Project Submission Guidelines",
+    "section": "Academic Policies",
+    "content": "Final year projects must be submitted in both hardcopy and digital format. The project report must follow the IEEE format. All code must be uploaded to the institution's GitHub organization. Viva voce will be conducted by an external examiner and internal guide."
+  },
+  {
+    "id": "hb-017",
+    "title": "Medical Leave Policy",
+    "section": "Student Welfare",
+    "content": "Medical leave requires a certificate from the campus health center or a registered medical practitioner. For leave exceeding 3 days, a medical report must be submitted. Leave for contagious diseases requires a fitness certificate before returning to classes."
+  },
+  {
+    "id": "hb-018",
+    "title": "Anti-Ragging Policy",
+    "section": "Student Discipline",
+    "content": "Ragging is strictly prohibited and is a punishable offense under the law. Any student found indulging in ragging will be expelled immediately and legal action will be initiated. Anti-ragging helpline: 1800-180-5522. All students and parents must submit an anti-ragging affidavit."
+  },
+  {
+    "id": "hb-019",
+    "title": "Wi-Fi and Internet Usage",
+    "section": "IT Services",
+    "content": "Campus Wi-Fi is available in all academic buildings and hostels. Each student receives 10GB of data per week. Torrenting, piracy, and accessing blocked websites are strictly prohibited and will result in account suspension. Network activity is monitored for security purposes."
+  },
+  {
+    "id": "hb-020",
+    "title": "Alumni Network",
+    "section": "Career Development",
+    "content": "All graduating students are automatically enrolled in the alumni network. Alumni receive access to the placement portal, library, and campus events. The alumni association conducts annual meets and provides mentorship to current students. Lifetime email forwarding is provided."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "id": "prof-001",
+    "name": "Dr. Rajesh Sharma",
+    "department": "Computer Science",
+    "email": "rajesh.sharma@campus.edu",
+    "office_hours": "Mon-Wed 03:00-05:00 PM",
+    "office_location": "CS Block, Room 201",
+    "courses": ["CS101", "CS301"]
+  },
+  {
+    "id": "prof-002",
+    "name": "Dr. Priya Nair",
+    "department": "Computer Science",
+    "email": "priya.nair@campus.edu",
+    "office_hours": "Tue-Thu 02:00-04:00 PM",
+    "office_location": "CS Block, Room 205",
+    "courses": ["CS201"]
+  },
+  {
+    "id": "prof-003",
+    "name": "Dr. Vikram Patel",
+    "department": "Computer Science",
+    "email": "vikram.patel@campus.edu",
+    "office_hours": "Mon-Fri 10:00-12:00 PM",
+    "office_location": "CS Block, Room 210",
+    "courses": ["CS302", "CS402"]
+  },
+  {
+    "id": "prof-004",
+    "name": "Dr. Ananya Gupta",
+    "department": "Computer Science",
+    "email": "ananya.gupta@campus.edu",
+    "office_hours": "Wed-Fri 11:00-01:00 PM",
+    "office_location": "CS Block, Room 215",
+    "courses": ["CS401"]
+  },
+  {
+    "id": "prof-005",
+    "name": "Dr. Sunita Rao",
+    "department": "Mathematics",
+    "email": "sunita.rao@campus.edu",
+    "office_hours": "Mon-Thu 02:00-04:00 PM",
+    "office_location": "Science Block, Room 102",
+    "courses": ["MA101", "MA202"]
+  },
+  {
+    "id": "prof-006",
+    "name": "Dr. Arjun Krishnan",
+    "department": "Mechanical Engineering",
+    "email": "arjun.krishnan@campus.edu",
+    "office_hours": "Tue-Thu 03:00-05:00 PM",
+    "office_location": "ME Block, Room 301",
+    "courses": ["ME101", "ME201"]
+  },
+  {
+    "id": "prof-007",
+    "name": "Dr. Meera Iyer",
+    "department": "Electrical Engineering",
+    "email": "meera.iyer@campus.edu",
+    "office_hours": "Mon-Wed 11:00-01:00 PM",
+    "office_location": "EEE Block, Room 105",
+    "courses": ["EE101", "EE301"]
+  },
+  {
+    "id": "prof-008",
+    "name": "Dr. Ramesh Chandra",
+    "department": "Physics",
+    "email": "ramesh.chandra@campus.edu",
+    "office_hours": "Tue-Fri 09:00-11:00 AM",
+    "office_location": "Science Block, Room 110",
+    "courses": ["PH101"]
+  },
+  {
+    "id": "prof-009",
+    "name": "Dr. Kavita Reddy",
+    "department": "Electronics",
+    "email": "kavita.reddy@campus.edu",
+    "office_hours": "Mon-Thu 01:00-03:00 PM",
+    "office_location": "ECE Block, Room 202",
+    "courses": ["EC101"]
+  },
+  {
+    "id": "prof-010",
+    "name": "Dr. Farhan Khan",
+    "department": "Humanities",
+    "email": "farhan.khan@campus.edu",
+    "office_hours": "Wed-Fri 10:00-12:00 PM",
+    "office_location": "Admin Block, Room 305",
+    "courses": ["HU101"]
+  }
+]
