@@ -156,26 +156,57 @@ npm run dev
 
 ## Deployment
 
-### Frontend (Vercel)
+### Quick Deploy (Render + Vercel)
+
+We use **Render** for the 4 Python backend servers (free tier) and **Vercel** for the Next.js frontend (free tier).
+
+#### Step 1: Deploy Backend Servers to Render
+
+1. Go to [dashboard.render.com/blueprints](https://dashboard.render.com/blueprints)
+2. Click **New Blueprint Instance**
+3. Connect your GitHub repo (`your-username/campus-intelligence`)
+4. Render will read `render.yaml` and create 4 web services automatically:
+   - `campus-library-mcp` (books data)
+   - `campus-cafeteria-mcp` (menu data)
+   - `campus-events-mcp` (events data)
+   - `campus-academics-mcp` (handbook, courses, professors)
+5. Wait for all 4 services to show **"Live"** (takes 2-3 minutes)
+6. Copy the URLs (e.g., `https://campus-library-mcp.onrender.com`)
+
+#### Step 2: Deploy Frontend to Vercel
 
 ```bash
+# Install Vercel CLI
+npm install -g vercel
+
+# Login (opens browser)
+vercel login
+
+# Deploy
 vercel --prod
 ```
 
-Set environment variables in Vercel dashboard:
-- `GROQ_API_KEY`
-- `MCP_LIBRARY_URL` (e.g., `https://campus-library-mcp.onrender.com`)
-- `MCP_CAFETERIA_URL`
-- `MCP_EVENTS_URL`
-- `MCP_ACADEMICS_URL`
+Or use the Vercel Dashboard:
+1. Go to [vercel.com/new](https://vercel.com/new)
+2. Import your GitHub repo
+3. Add **Environment Variables**:
+   - `GROQ_API_KEY` = your Groq API key
+   - `GROQ_MODEL` = `llama-3.1-8b-instant`
+   - `MCP_LIBRARY_URL` = `https://campus-library-mcp.onrender.com`
+   - `MCP_CAFETERIA_URL` = `https://campus-cafeteria-mcp.onrender.com`
+   - `MCP_EVENTS_URL` = `https://campus-events-mcp.onrender.com`
+   - `MCP_ACADEMICS_URL` = `https://campus-academics-mcp.onrender.com`
+4. Click **Deploy**
 
-### Data Servers (Render / Railway)
+#### Step 3: Update README with Live URL
 
-Deploy each server as a separate Web Service:
-- Connect GitHub repo
-- Set root directory to `mcp-servers/mcp-library` (etc.)
-- Use Python environment or Dockerfile
-- Set port to 8001, 8002, 8003, 8004
+After deployment, Vercel gives you a URL. Update the README:
+```bash
+# Edit line 7 of README.md with your actual URL
+git add README.md
+git commit -m "docs: update live demo URL"
+git push
+```
 
 ## Demo Video
 
